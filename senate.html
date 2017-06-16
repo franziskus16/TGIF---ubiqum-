@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--        <link rel="stylesheet" href="styles/resets.css">    -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="styles/tgif.css">
+    </head>
+    <title>TGIF</title>
+    <body class="ppal">
+        <header id="home" class="header">    
+            <div id="main-nav" class="navbar">
+                <div class="container2">  
+                    <nav class="navbar navbar-default navbar-fixed-top">
+                        <div class="container-fluid">
+                            <nav class="navbar navbar-default" role="navigation">
+                                <div class="container">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#dropdown-thumbnail-preview">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <img class="imglogo" href="index.html" src="assets/logo%20black.png" alt="TGIF">
+                                    </div>
+
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="dropdown-thumbnail-preview">
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li class="dropdown thumb-dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Congress 113 <span class="caret"></span></a>
+                                                <ul class="dropdown-menu" role="menu">
+                                                    <li class="active">
+                                                        <a href="#">
+                                                            Senate                             
+                                                        </a>
+                                                    </li>
+                                                    <li class="divider"></li>
+                                                    <li>
+                                                        <a href="congress%20113.html">
+                                                            House                              
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown thumb-dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Attendance <span class="caret"></span></a>
+                                                <ul class="dropdown-menu" role="menu">
+                                                    <li>
+                                                        <a href="senate%20-%20attendance.html">
+                                                            Senate                             
+                                                        </a>
+                                                    </li>
+                                                    <li class="divider"></li>
+                                                    <li>
+                                                        <a href="congress%20-%20attendance.html">
+                                                            House                              
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown thumb-dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Party Loyalty <span class="caret"></span></a>
+                                                <ul class="dropdown-menu" role="menu">
+                                                    <li>
+                                                        <a href="senate%20-%20party-loyalty.html">
+                                                            Senate                             
+                                                        </a>
+                                                    </li>
+                                                    <li class="divider"></li>
+                                                    <li>
+                                                        <a href="congress-party-loyalty.html">
+                                                            House                              
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li><a href="mailto:info@tgif.net">info@tgif.net</a></li>
+                                        </ul>  
+                                    </div>  
+                                </div><!-- /.navbar-collapse -->
+                            </nav>
+                        </div>
+                    </nav>
+                    </div><!-- /.container-fluid -->  
+                      
+                </div>
+                <!--End HOME SECTION-->
+        </header>
+            <div class="entrance-content">
+                <div class="portrait">
+                    <h1>Transparent Government in Fact</h1>
+                </div>
+            </div>   
+
+            <!--Table container-->
+            <div class="title-row">
+                <h2>Senators</h2>
+            </div>
+            <div class="container">
+                <p>First convened in 1789, the composition and powers of the Senate are established in Article One of the U.S. Constitution. Each state is represented by two senators, regardless of population, who serve staggered six-year terms. The Senate has several exclusive powers not granted to the House, including consenting to treaties as a precondition to their ratification and consenting to or confirming appointments of Cabinet secretaries, federal judges, other federal executive officials, military officers, regulatory officials, ambassadors, and other federal uniformed officers, as well as trial of federal officials impeached by the House.</p>
+                <div class="toggleBtn">
+                    <div class="inline">
+                       <h4>Party Filter: </h4>
+                        <label class="btn">
+                            <input id="dem" class="toggleBtn on" type="checkbox" name="party" value="D"/> Democrats</label>
+                        <label class="btn">
+                            <input id="rep" class="toggleBtn on" type="checkbox" name="party" value="R" /> Republicans</label>
+                        <label class="btn">
+                            <input id="ind" class="toggleBtn on" type="checkbox" name="party" value="I"/> Independent</label>
+                        </div>    
+                        <div class="inline">
+                        <h4>Senate Filter: </h4>
+                        <div class="especial">     
+                        <select class="selectpicker" id="dropstate">
+                            <option value="all">ALL</option>
+                            <option value="AL">AL</option>
+                            <option value="AK">AK</option>
+                            <option value="AZ">AZ</option>
+                            <option value="AR">AR</option>
+                            <option value="CA">CA</option>
+                            <option value="CO">CO</option>
+                            <option value="CT">CT</option>
+                            <option value="DE">DE</option>
+                            <option value="FL">FL</option>
+                            <option value="GA">GA</option>
+                            <option value="AL">AL</option>
+                            <option value="HI">HI</option>
+                            <option value="ID">ID</option>
+                            <option value="IL">IL</option>
+                            <option value="IN">IN</option>
+                            <option value="IA">IA</option>
+                            <option value="KS">KS</option>
+                            <option value="KY">KY</option>
+                            <option value="LA">LA</option>
+                            <option value="ME">ME</option>
+                            <option value="MD">MD</option>
+                            <option value="MA">MA</option>
+                            <option value="MI">MI</option>
+                            <option value="MN">MN</option>
+                            <option value="MS">MS</option>
+                            <option value="MO">MO</option>
+                            <option value="MT">MT</option>
+                            <option value="NE">NE</option>
+                            <option value="NV">NV</option>
+                            <option value="NH">NH</option>
+                            <option value="NJ">NJ</option>
+                            <option value="NM">NM</option>
+                            <option value="NY">NY</option>
+                            <option value="NC">NC</option>
+                            <option value="ND">ND</option>
+                            <option value="OH">OH</option>
+                            <option value="OK">OK</option>
+                            <option value="OR">OR</option>
+                            <option value="PA">PA</option>
+                            <option value="RI">RI</option>
+                            <option value="SC">SC</option>
+                            <option value="SD">SD</option>
+                            <option value="TN">TN</option>
+                            <option value="TX">TX</option>
+                            <option value="UT">UT</option>
+                            <option value="VT">VT</option>
+                            <option value="VA">VA</option>
+                            <option value="WA">WA</option>
+                            <option value="WV">WV</option>
+                            <option value="WI">WI</option>
+                            <option value="WY">WY</option>
+                        </select>
+                    </div>  
+                    </div>
+                    <div class="inline">
+                        <h4>Use Data Source: </h4>
+                        <label class="btn">
+                            <input id="nyt" class="toggleBtn on" type="checkbox" name="nyt" value="ny" checked/> NYT</label>
+                        <label class="btn">
+                            <input id="sl" class="toggleBtn on" type="checkbox" name="sll" value="sll"/> Sunlight Lab</label> 
+                    </div>
+                </div> 
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Party</td>
+                            <td>State</td>
+                            <td>Years in Office</td>
+                            <td>% Votes w/ Party</td>
+                            <td>Birthday</td>
+                        </tr>
+                    </thead>
+                    <tbody id="infoTable">
+                    </tbody>
+                </table>
+            </div>
+        
+        <footer class="container-fluid text-center bg-lightgray"> 
+            <div class="copyrights" style="margin-top:25px;">
+                <p>TGIF © 2017, All Rights Reserved
+                    <br>
+                    <span>Web Design By: Francesc Gimenez</span></p>
+            </div>
+        </footer>
+        <!--<script src="Js/senate.js"></script>-->
+        <script src="Js/main.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>

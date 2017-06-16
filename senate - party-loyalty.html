@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--        <link rel="stylesheet" href="styles/resets.css">    -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="styles/tgif.css">
+    </head>
+    <title>TGIF</title>
+    <body class="ppal">
+        <header id="home" class="header">    
+            <div id="main-nav" class="navbar">
+                <div class="container2">  
+                    <nav class="navbar navbar-default navbar-fixed-top">
+                        <div class="container-fluid">
+                            <nav class="navbar navbar-default" role="navigation">
+                                <div class="container">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#dropdown-thumbnail-preview">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <img class="imglogo" href="index.html" src="assets/logo%20black.png" alt="TGIF">
+                                    </div>
+
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="dropdown-thumbnail-preview">
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li class="dropdown thumb-dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Congress 113 <span class="caret"></span></a>
+                                                <ul class="dropdown-menu" role="menu">
+                                                    <li>
+                                                        <a href="senate.html">
+                                                            Senate                             
+                                                        </a>
+                                                    </li>
+                                                    <li class="divider"></li>
+                                                    <li>
+                                                        <a href="congress%20113.html">
+                                                            House                              
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown thumb-dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Attendance <span class="caret"></span></a>
+                                                <ul class="dropdown-menu" role="menu">
+                                                    <li>
+                                                        <a href="senate%20-%20attendance.html">
+                                                            Senate                             
+                                                        </a>
+                                                    </li>
+                                                    <li class="divider"></li>
+                                                    <li>
+                                                        <a href="congress%20-%20attendance.html">
+                                                            House                              
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown thumb-dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Party Loyalty <span class="caret"></span></a>
+                                                <ul class="dropdown-menu" role="menu">
+                                                    <li class="active">
+                                                        <a href="#">
+                                                            Senate                             
+                                                        </a>
+                                                    </li>
+                                                    <li class="divider"></li>
+                                                    <li>
+                                                        <a href="congress-party-loyalty.html">
+                                                            House                              
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li><a href="mailto:info@tgif.net">info@tgif.net</a></li>
+                                        </ul>  
+                                    </div>  
+                                </div><!-- /.navbar-collapse -->
+                                </div><!-- /.container-fluid -->
+                            </nav>
+                        </div>
+                </div>
+                <!--End HOME SECTION-->
+                </header>
+            <div class="entrance-content">
+                <div class="portrait">
+                    <h1>Transparent Government in Fact</h1>
+                </div>
+            </div>  
+            <!--Table container-->
+            <div class="title-row">
+                <h2>Party Loyalty</h2>
+            </div>
+            <div class="container">
+
+                <div class="row">
+                    <div id="senate3" class="col-xs-6">
+                        <p>Those who consider themselves to be strong partisans, strong Democrats and strong Republicans respectively, tend to be the most faithful in voting for their party's nominee for office and legislation that backs their party's agenda. </p>
+                    </div>
+                    <div class="col-xs-6">
+                        <h3>Senate at a glance</h3>
+                        <table class='table table-hover'> 
+                            <thead>
+                                <th>Party</th>
+                                <th>Number of Reps </th>
+                                <th>% Voted with Prty</th>
+                            </thead>   
+                            <tbody>
+                                <tr>
+                                    <td>Republican</td>
+                                    <td id="primero"></td>
+                                    <td id="porce1"></td>
+                                </tr>
+                                <tr>
+                                    <td>Democrats</td>
+                                    <td id="segundo"></td>
+                                    <td id="porce2"></td>
+                                </tr>
+                                <tr>
+                                    <td>Independents</td>
+                                    <td id="tercero"></td>
+                                    <td id="porce3"></td>
+                                </tr>
+                                <tr>
+                                    <td>Total</td>
+                                    <td id="totalmejor"></td>
+                                    <td id="totalporce"></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <br></br>
+
+            <div class="row">
+                <div  id="senate" class="col-xs-6">
+                    <h3>Least Loyal (Bottom 10% of Party)</h3>
+                    <table class='table table-hover'> 
+                        <thead>
+                            <th>Name</th>
+                            <th>Number of party Votes</th>
+                            <th>% party votes</th>
+                        </thead>
+                        <tbody id="loyaltyleast">
+                        </tbody>
+                    </table>
+                </div>
+
+                <div id="senate" class="col-xs-6">
+                    <h3>Most Loyal (Top 10% of Party)</h3>
+                    <table class='table table-hover'> 
+                        <thead>
+                            <th>Name</th>
+                            <th>Number of party Votes</th>
+                            <th>% party votes</th>
+                        </thead>
+
+                        <tbody id="loyaltymost">
+                        </tbody>
+                    </table>     
+                </div>
+
+            </div>
+            </div>
+        <footer class="container-fluid text-center bg-lightgray"> 
+            <div class="copyrights" style="margin-top:25px;">
+                <p>TGIF © 2017, All Rights Reserved
+                    <br>
+                    <span>Web Design By: Francesc Gimenez</span></p>
+            </div>
+        </footer>
+        <script src="Js/statistics.js"></script>
+        <!--<script src="Js/senate.js"></script>-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="Js/loyalty.js"></script>
+    </body>
+</html>

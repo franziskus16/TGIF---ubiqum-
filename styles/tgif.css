@@ -1,0 +1,322 @@
+
+
+.ppal {
+    
+}
+
+#main-nav {
+}
+
+.container {
+    text-align: center;
+  
+}
+
+img {
+}
+
+
+h1 {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    clear:both;
+    vertical-align: baseline;
+    display: block;
+    font-weight: 700;
+    font-size: 55px;
+    text-align: center;
+    color:azure;
+    padding-top: 150px;
+}
+
+.entrance-content {
+    width: auto;
+    height: 450px;
+    background-size: cover;
+    background-position: top center;
+    background-image:url("../assets/us_capitol_night.jpg");
+   
+}
+
+.portrait {
+    margin-left: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.buttons {
+}
+
+.congress {
+    text-align: center;
+    color:whitesmoke;
+    background-color: blue;
+    padding:13px 35px 13px 35px;
+    border-radius: 4px;
+    margin:10px;
+    border:none;
+}
+
+.senate {
+    text-align: center;
+    color:whitesmoke;
+    background-color: red;
+    padding:13px 35px 13px 35px;
+    border-radius: 4px;
+    margin:10px;
+    border:none;
+}
+
+.h2, h2 {
+    margin:0;
+    padding: 5px;
+    font-size: 35pt;
+}
+
+
+.about-content {
+    font-family: inherit;
+    font-style: inherit;
+    font-size:16px;
+}
+
+.navbar {
+    
+}
+
+.navbar_logo {
+}
+
+#footer {
+    background: whitesmoke;
+    margin-top: 20px;
+    height: 120px;
+    width:100%;
+}
+
+.container_footer {
+    width: 100%;
+    height:100px;
+    display: inline-flex;
+    
+}
+
+.congress_details {
+    color:cornflowerblue;
+}
+
+.icon_map {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+#menu_item_1 {
+}
+
+#menu_item_2 {
+    
+}
+
+.blck_footer {
+    padding-left: 220px;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.submenu {
+}
+
+
+.container2 {
+   
+}
+
+#senate-data {
+}
+
+thead {
+       
+}
+
+.title-row {
+    background: whitesmoke;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    
+}
+
+.dropdown-menu {
+
+}
+.thumb-dropdown .dropdown-menu > li {
+    position: relative;
+}
+.thumb-dropdown .dropdown-menu > li > a .thumbnail {
+    position: absolute; 
+    left: 100%;
+    top: -10px;
+    display: none;    
+    width: 350px;
+    height: auto;
+    margin-left: 5px;
+}
+.thumb-dropdown .dropdown-menu > li > a:hover .thumbnail  {
+    display: block;    
+}
+
+.navbar {
+}
+
+.navbar-fixed-top {
+    
+}
+
+img {
+    
+}
+
+.imglogo {
+    width: 50px;
+    height: 53px;
+}
+
+.portrait {
+    text-align: center;
+}
+
+.logofooter {
+    width: 100px;
+    height: 100px;
+    display:inline;
+    
+}
+
+.checkbox {
+    padding: 10px;
+    background:whitesmoke;
+    text-align: left;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+footer {
+    
+}
+
+.text_footer {
+    padding-top: 50px;
+    padding-left: 200px;
+    
+}
+
+.bg-lightgray
+{
+    background-color:LightGray;
+}
+#leastlist {
+    overflow: scroll;
+    height: 100px;
+}
+
+#mostlist {
+   
+}
+
+#congress {
+     overflow: scroll;
+    height: 300px;
+}
+
+.titulotabla {
+}
+
+#senate3 {
+    padding-top: 60px;
+ 
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.block {
+    display: block;
+}
+
+.inline {
+    display:inline-flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    
+}
+
+#space {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.especial {
+    padding-left: 20px;
+    padding-right: 20px;
+}
